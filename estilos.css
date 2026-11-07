@@ -1,0 +1,12 @@
+body { margin: 3rem auto; padding: 0 1.25rem; max-width: 42rem; font: 1.1rem/1.7 system-ui, sans-serif; color: #172c32; background: #f1f6f3; }
+h1 { font-size: clamp(1.7rem, 6vw, 2.5rem); line-height: 1.2; }
+a { color: #006b60; overflow-wrap: anywhere; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #a45b00; outline-offset: 4px; }
+details { margin: 1rem 0; }
+summary { width: fit-content; padding: .35rem 0; color: #006b60; cursor: pointer; }
+.catalogo { list-style: none; margin: .5rem 0 1rem; padding: 0; }
+.catalogo li + li { margin-top: .75rem; }
+.aplicativo { display: flex; align-items: center; gap: .75rem; }
+.aplicativo img { flex: 0 0 40px; object-fit: contain; }
+.aplicativo a { min-width: 0; }
+.vazio, .voltar { font-size: .95rem; }
